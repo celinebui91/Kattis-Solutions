@@ -67,8 +67,10 @@ def add_json_to_readme(f, repo):
 
 def create_readme(repo):
     pre = """# Kattis Solutions
-Solutions to the [Kattis archives](https://open.kattis.com/).
+Solutions to the [Kattis archives](https://open.kattis.com/)
+
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/itshaze)
+
 ## Problems
 | Problem | Languages | :link: |
 | - | - | - |

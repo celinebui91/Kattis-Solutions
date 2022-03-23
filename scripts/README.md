@@ -31,3 +31,7 @@ In my case, `myrepo` would me `https://github.com/Erik-Avakian/Kattis-Solutions`
 
 ## Url checker
 This scripts extracts all links from the `README.md` file and checks if a get request to them returns a 200 status code.
+
+
+# use script from terminal when in the root directory
+## python scripts/add.py new_probs urlfile https://github.com/Erik-Avakian/Kattis-Solutions
