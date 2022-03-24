@@ -164,7 +164,7 @@ def get_kattis_title(url):
     r=requests.get(url)
     r.raise_for_status()
     soup = BeautifulSoup(r.content, 'html.parser')
-    return soup.select_one('h1').text
+    return soup.select_one('h1').text # type:ignore
 
 def process_problem_folder(folder, url):
     """Process a single solution folder, extracting needed info
